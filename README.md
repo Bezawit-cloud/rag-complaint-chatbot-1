@@ -1,4 +1,4 @@
-<img width="995" height="668" alt="image" src="https://github.com/user-attachments/assets/dcc166fb-94ed-4ee1-bb13-1aabd497d3eb" /># RAG Complaint Chatbot  
+# RAG Complaint Chatbot  
 **Author:** Bezawit Assefa 
 
 This repository contains the work for building a **Retrieval-Augmented Generation (RAG) pipeline** using CFPB consumer complaint data. The project is divided into two main tasks: Exploratory Data Analysis (EDA) and preparing text data for semantic search using chunking, embedding, and vector store indexing.  
@@ -13,7 +13,7 @@ This repository contains the work for building a **Retrieval-Augmented Generatio
 1. Loaded the dataset of **82,164 complaints** with complete narratives.  
 2. Analyzed **narrative lengths**: most complaints are very short (0–250 words), with a few very long ones (up to 6,469 words).  
 3. Visualized the distribution of narrative lengths using a **histogram**. The visualization shows a right-skewed distribution: many short complaints, few long ones.  
-  
+ <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/dcc166fb-94ed-4ee1-bb13-1aabd497d3eb" /> 
 
 4. Cleaned the data:  
    - Converted all text to lowercase.  
@@ -65,4 +65,5 @@ This repository contains the work for building a **Retrieval-Augmented Generatio
 
 **Summary:**  
 This project allows searching consumer complaints based on meaning, not just keywords. Task 1 explored and cleaned the dataset, while Task 2 prepared the text for semantic search using chunking, embeddings, and FAISS vector storage.  
+
 

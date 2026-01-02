@@ -51,7 +51,6 @@ This repository contains the work for building a **Retrieval-Augmented Generatio
 - Persisted vector store saved in `vector_store/`.  
 - Metadata and chunks used for embeddings.  
 
-**Note:** Large files like the FAISS index and vector store are **not included in GitHub** to avoid size issues.  
 
 ---
 
@@ -65,5 +64,6 @@ This repository contains the work for building a **Retrieval-Augmented Generatio
 
 **Summary:**  
 This project allows searching consumer complaints based on meaning, not just keywords. Task 1 explored and cleaned the dataset, while Task 2 prepared the text for semantic search using chunking, embeddings, and FAISS vector storage.  
+
 
 
